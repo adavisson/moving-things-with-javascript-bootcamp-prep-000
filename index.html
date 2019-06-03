@@ -31,8 +31,14 @@
       function moveDodgerRight(){
         var rightNumbers = dodger.style.right.replace('px','');
         var right = parseInt(rightNubers,10);
-        if (right < )
+        if (right < 400){
+          dodger.style.right = `${right + 1}px`;
+        }
       }
+      
+      docuemtn.addEventListener('keydown', function(e){
+        if(e.which ===)
+      })
     </script>
   </body>
 </html>
